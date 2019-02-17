@@ -1,4 +1,4 @@
-const smi = require('node-nvidia-smi');
+const smi = require('./smi');
 
 // Console Log to ensure nvidia-smi is working 
 smi(function (err, smi) {
