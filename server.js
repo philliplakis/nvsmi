@@ -1,6 +1,5 @@
-const smi = require('node-nvidia-smi');
+const smi = require('./smi');
 const express = require("express");
-const os = require('os');
 const port = 8989;
 
 var app = express();
